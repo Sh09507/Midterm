@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "251acaac-cd2d-43d6-8c3d-ce3ee3b799e6",
+		"name": "Sabrina_Hill_CalculatorTests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET request for calculator",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e24fa4fd-61ad-4858-a20f-e2802b5fb40c",
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/html; charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://sabrinahill.xyz/Webserver/index.php",
+					"protocol": "https",
+					"host": [
+						"sabrinahill",
+						"xyz"
+					],
+					"path": [
+						"Webserver",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status code",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e24fa4fd-61ad-4858-a20f-e2802b5fb40c",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/html; charset=UTF-8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://sabrinahill.xyz/Webserver/index.php",
+					"protocol": "https",
+					"host": [
+						"sabrinahill",
+						"xyz"
+					],
+					"path": [
+						"Webserver",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Content-Type check",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3faeed61-91fc-48ef-b2f6-2115a3a8bc76",
+						"exec": [
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sabrinahill.xyz/Webserver/index.php",
+					"protocol": "https",
+					"host": [
+						"sabrinahill",
+						"xyz"
+					],
+					"path": [
+						"Webserver",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Title element present",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ea436472-6fba-44c9-81ae-5959d2975013",
+						"exec": [
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Calculator App\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://sabrinahill.xyz/Webserver/index.php",
+					"protocol": "https",
+					"host": [
+						"sabrinahill",
+						"xyz"
+					],
+					"path": [
+						"Webserver",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
