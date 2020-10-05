@@ -5,7 +5,7 @@
   "url": "https://sabrinahill.xyz/Webserver/index.php",
   "tests": [{
     "id": "12b8c54e-e407-451a-a8bb-e27b2e506190",
-    "name": "Add Test",
+    "name": "Add",
     "commands": [{
       "id": "7427dea9-c90e-4e25-be41-aad9a0c083e8",
       "comment": "",
@@ -104,7 +104,7 @@
     }]
   }, {
     "id": "ea82b6c5-febe-4321-a79f-e179cd4ec0c8",
-    "name": "Subtract Test",
+    "name": "Subtract",
     "commands": [{
       "id": "735e05eb-4018-4379-8e2b-ebd52f603afa",
       "comment": "",
@@ -239,7 +239,7 @@
     }]
   }, {
     "id": "a3736157-6dc5-4512-ad1a-1b15a9103815",
-    "name": "Multiply Test",
+    "name": "Multiply",
     "commands": [{
       "id": "80fef2a4-ce9c-4a73-874f-df0e564cf4f6",
       "comment": "",
@@ -360,7 +360,7 @@
     }]
   }, {
     "id": "f13b79dc-aaa4-4f5c-9f96-c32722254dd5",
-    "name": "Division Test",
+    "name": "Divide",
     "commands": [{
       "id": "7233b768-c8a8-47f0-994e-b33b1b13a229",
       "comment": "",
@@ -483,7 +483,7 @@
     }]
   }, {
     "id": "506902b6-a2cd-4ed5-be93-983f5a5939c7",
-    "name": "Power Test",
+    "name": "Power",
     "commands": [{
       "id": "7bb73985-bbff-4211-b5e0-c4a8ff72f533",
       "comment": "",
@@ -594,7 +594,7 @@
     }]
   }, {
     "id": "79c545b6-cda0-489d-80dc-619d9a0e596a",
-    "name": "Negative 1 Test",
+    "name": "Negative1",
     "commands": [{
       "id": "10a2c2ca-caeb-4fc2-932e-b40f9756e5de",
       "comment": "",
@@ -686,7 +686,7 @@
     }]
   }, {
     "id": "dd339151-e704-4985-bfcd-c7b375ade604",
-    "name": "Negative 2 Test ",
+    "name": "Negative2",
     "commands": [{
       "id": "e94faf46-ddcd-4c62-a774-e99a8dd05359",
       "comment": "",
